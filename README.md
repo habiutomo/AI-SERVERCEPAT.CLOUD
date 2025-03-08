@@ -1,5 +1,12 @@
 # AI SERVERCEPAT.CLOUD
 
+![Python](https://img.shields.io/badge/python-3.11-blue.svg)
+![Flask](https://img.shields.io/badge/flask-latest-green.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+![AI Chat Preview](https://raw.githubusercontent.com/servercepat/aichat/main/preview.svg)
+
 Aplikasi chat berbasis web yang menggunakan Flask dan AIML API untuk membuat antarmuka chatbot yang mirip dengan GPT. Aplikasi ini menyediakan antarmuka yang user-friendly untuk berinteraksi dengan AI.
 
 ## Fitur
@@ -11,6 +18,13 @@ Aplikasi chat berbasis web yang menggunakan Flask dan AIML API untuk membuat ant
 - 📱 Responsive design untuk desktop dan mobile
 - 🔐 Sistem autentikasi pengguna
 
+## Screenshot
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/servercepat/aichat/main/screenshots/login.svg" alt="Login Page" width="400"/>
+  <img src="https://raw.githubusercontent.com/servercepat/aichat/main/screenshots/chat.svg" alt="Chat Interface" width="400"/>
+</div>
+
 ## Teknologi yang Digunakan
 
 - **Backend**: Python Flask
@@ -19,6 +33,17 @@ Aplikasi chat berbasis web yang menggunakan Flask dan AIML API untuk membuat ant
 - **API**: AIML API untuk pemrosesan chat
 - **Styling**: Custom CSS dengan Bootstrap dark theme
 - **Database**: PostgreSQL
+
+## Arsitektur Sistem
+
+```mermaid
+graph TD
+    A[Client Browser] -->|HTTP/HTTPS| B[Flask Server]
+    B -->|Authentication| C[PostgreSQL DB]
+    B -->|API Requests| D[AIML API]
+    D -->|AI Response| B
+    B -->|Response| A
+```
 
 ## Cara Menjalankan Aplikasi
 
@@ -84,4 +109,8 @@ Silakan berkontribusi dengan membuat issue atau pull request jika ingin menambah
 
 ## Lisensi
 
-MIT License habizinnia@gmail.com
+MIT License
+
+## Author
+
+[![AI SERVERCEPAT.CLOUD](https://img.shields.io/badge/AI-SERVERCEPAT.CLOUD-blue.svg)](https://servercepat.cloud)
