@@ -18,12 +18,7 @@ Aplikasi chat berbasis web yang menggunakan Flask dan AIML API untuk membuat ant
 - 📱 Responsive design untuk desktop dan mobile
 - 🔐 Sistem autentikasi pengguna
 
-## Screenshot
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/servercepat/aichat/main/screenshots/login.svg" alt="Login Page" width="400"/>
-  <img src="https://raw.githubusercontent.com/servercepat/aichat/main/screenshots/chat.svg" alt="Chat Interface" width="400"/>
-</div>
 
 ## Teknologi yang Digunakan
 
@@ -109,7 +104,9 @@ Silakan berkontribusi dengan membuat issue atau pull request jika ingin menambah
 
 ## Lisensi
 
-MIT License habizinnia@gmail.com
+MIT License 
+
+jika butuh reponya silahkan email : habizinnia@gmail.com
 
 ## Author
 
