@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![AI Chat Preview](https://raw.githubusercontent.com/servercepat/aichat/main/preview.svg)
+![AI Chat Preview](ai.jpg)
 
 Aplikasi chat berbasis web yang menggunakan Flask dan AIML API untuk membuat antarmuka chatbot yang mirip dengan GPT. Aplikasi ini menyediakan antarmuka yang user-friendly untuk berinteraksi dengan AI.
 
