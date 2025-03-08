@@ -109,7 +109,7 @@ Silakan berkontribusi dengan membuat issue atau pull request jika ingin menambah
 
 ## Lisensi
 
-MIT License
+MIT License habizinnia@gmail.com
 
 ## Author
 
